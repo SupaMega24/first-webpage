@@ -52,6 +52,7 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     padding-bottom: 8px;
+    width: 400px;
 }
 
 .card {}
@@ -88,4 +89,8 @@ img {
  button {
     background-color: #3882F6;
     color: #e5e7eb;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-top: 8px;
  }

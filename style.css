@@ -15,7 +15,10 @@ body {
     height: 200px;
 }
 
-.header {}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .section1 {
 
@@ -43,3 +46,7 @@ img {
     padding: 4px;
     width: 200px;
 }
+ li {
+    display: inline-flex;
+    margin: 16px;    
+ }

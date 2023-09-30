@@ -44,7 +44,15 @@ body {
     padding: 32px 0;
 }
 
-.section3 {}
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    padding-bottom: 42px;
+    margin-bottom: 42px;
+}
 
 .quote {}
 

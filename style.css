@@ -45,11 +45,13 @@ body {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    padding: 8px 0;
 }
 
 .hero2 {
     color: #e5e7eb;
     font-size: 18px;
+    padding-bottom: 8px;
 }
 
 .card {}

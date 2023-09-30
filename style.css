@@ -78,7 +78,23 @@ body {
 
 .card {}
 
-.callToAction {}
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    width: 700px;
+    height: 100px;
+    margin: 32px auto;
+}
+
+.cta_button {
+    border: 1px solid #f9faf8;
+    border-radius: 6px;
+    background-color: #1f2937;
+}
 
 .footer {
     display: flex;

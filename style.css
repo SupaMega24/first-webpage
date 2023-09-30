@@ -3,10 +3,6 @@ body {
     margin: 0;    
 }
 
-.section1 {
-    display: flex;
-}
-
 .main_img {
     border: 2px solid #3882F6;
     border-radius: 4px;
@@ -26,8 +22,13 @@ body {
 }
 
 .section1 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
+
+.container {}
 
 .section2 {}
 

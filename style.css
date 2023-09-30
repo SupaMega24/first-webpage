@@ -36,7 +36,13 @@ body {
     width: 400px;
 }
 
-.section2 {}
+.section2 {
+    text-align: center;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 32px 0;
+}
 
 .section3 {}
 

@@ -1,12 +1,25 @@
-body {}
+body {
+    min-height: 100vh;
+    margin: 0 32px;
+}
 
 .section1 {
     display: flex;
 }
 
+.main_img {
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    padding: 4px;
+    width: 300px;
+    height: 200px;
+}
+
 .header {}
 
-.section1 {}
+.section1 {
+
+}
 
 .section2 {}
 
@@ -23,3 +36,10 @@ body {}
 .callToAction {}
 
 .footer {}
+
+img {
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    padding: 4px;
+    width: 200px;
+}

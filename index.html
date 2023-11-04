@@ -23,30 +23,40 @@
         </div>
         <img class="main_img" src="images/kittens.jpg" alt="Kittens">
     </div>
-    <div class="section2">Check Out These Adorable Kittens</div>
-    <div class="section3">
-        <div class="card">
+    <div class="section2">Check Out These Adorable Kittens</div>      
+    <div class="section3">            
+        <div class="card" onclick="openCatModal('images/flowercat.jpg')">
             <img src="images/flowercat.jpg" alt="Cute kitten playing with a flower.">
             <div class="text">There, there pretty flower.</div>
         </div>
-        <div class="card">
+        <div class="card" onclick="openCatModal('images/moviecat.jpg')">
             <img src="images/moviecat.jpg" alt="Cat Posing">
             <div class="text">Meowflix and Chill.</div>
         </div>
-        <div class="card">
+        <div class="card" onclick="openCatModal('images/angrycat.jpg')">
             <img src="images/angrycat.jpg" alt="Kitting angry at flower">
             <div class="text">No, I'm Princess Peach!</div>
         </div>
-        <div class="card">
+        <div class="card" onclick="openCatModal('images/treecat.jpg')">
             <img src="images/treecat.jpg" alt="Kitten in a tree">
             <div class="text">Na na na boo boo...</div>
         </div>
     </div>
-    <div class="quote">“I had been told that the training procedure with cats was difficult. It’s not. Mine had me trained in two days.” &nbsp;&nbsp;<strong>– Bill Dana</strong></div>
+
+    <!-- Photo Modal -->
+    <div class="cat-modal" id="catModal">            
+        <div id="catPhoto" class="cat-photo"></div>
+        <div class="modal-details">            
+            <button onclick="closeCatModal()">Close</button>                
+        </div>
+            
+    </div>
+    <div class="quote"><p id='quote'>“I had been told that the training procedure with cats was difficult. It’s not. Mine had me trained in two days.” &nbsp;&nbsp;<strong>– Bill Dana</strong></p></div>
     <div class="callToAction">
-        <div>Cat's are independent, but still need our help. Get involved today!</div>
+        <div><p id='quote'>Cat's are independent, but still need our help. Get involved today!</p></div>
         <button class="cta_button"><a href="https://www.alleycat.org/" target="_blank">Learn More</a></button>
     </div>
     <div class="footer">Geaux Tigers!</div>
+    <script src="script.js" defer></script>
 </body>
 </html>
